@@ -1,0 +1,35 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "openlayer-pwa-demo",
+  "version": "1.0.0",
+  "description": "A simple OpenLayers pwa app showing user's location on a full screen map.A simple Node app built on Express, instantly up and running.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-http-to-https": "^1.1.4",
+    "node-fetch": "^2.6.0",
+    "ol": "5.3.2"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "Apache2",
+  "keywords": [
+    "progressive-web-app",
+    "pwa",
+    "installable web app",
+    "node",
+    "glitch",
+    "express",
+    "openlayers",
+    "maps"
+  ]
+}
