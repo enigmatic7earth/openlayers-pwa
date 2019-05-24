@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- CODELAB: Add link rel manifest -->
+  <link rel="manifest" href="/manifest.json">
+  <!-- CODELAB: Add iOS meta tags and icons -->
+<!--   <meta name="apple-mobile-web-app-capable" content="yes"> --> // depricated
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="OpenLayers PWA">
+  <link rel="apple-touch-icon" href="/images/icons/icon-152x152.png">
+  <!-- description -->
+  <meta name="description" content="Sample OpenLayers PWapp">
+  <!-- meta theme-color -->
+  <meta name="theme-color" content="#aad2dd" />
+  <link rel="stylesheet" href="https://openlayers.org/en/v5.3.0/css/ol.css" type="text/css">
+  <!-- The line below is only needed for old environments like Internet Explorer and Android 4.x -->
+  <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL"></script>
+  <style>
+    .map {
+      height: 1000px;
+      width: 100%;
+    }
+  </style>
+  <script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/build/ol.js"></script>
+  <title>OpenLayers example</title>
+  </head>
+  <body>
+    <div id="map" class="map"></div>
+    <script type="text/javascript">
+      var map = new ol.Map({
+        target: 'map',
+        layers: [
+          new ol.layer.Tile({
+            source: new ol.source.OSM()
+          })
+        ],
+        view: new ol.View({
+          center: ol.proj.fromLonLat([72.854118,19.128825]),
+          zoom: 11
+        })
+      });
+    </script>
+  </body>
+</html>
