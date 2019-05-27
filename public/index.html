@@ -37,6 +37,7 @@
     <button id="butInstall" aria-label="Install" hidden></button>
   </header>
   <script src="/scripts/install.js"></script>
+		<br/><br/><br/>
     <div id="map" class="map"></div>
     <script type="text/javascript">
       var map = new ol.Map({
@@ -52,5 +53,16 @@
         })
       });
     </script>
+    <script>
+    // <!-- Register service worker. --->
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/service-worker.js')
+            .then((reg) => {
+              console.log('Service worker registered.', reg);
+            });
+      });
+    }
+  </script>
   </body>
 </html>

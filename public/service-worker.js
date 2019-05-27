@@ -23,13 +23,7 @@ const DATA_CACHE_NAME = 'data-cache-v1';
 
 // CODELAB: Add list of files to cache here.
 const FILES_TO_CACHE = [
-  '/',
-  '/offline.html',
-  '/index.html',
-  '/scripts/install.js',
-  '/styles/inline.css',
-  '/images/install.svg',
-  '/images/refresh.svg',
+  '/offline.html'
 ];
 
 self.addEventListener('install', (evt) => {
@@ -79,5 +73,4 @@ self.addEventListener('fetch', (evt) => {
                 });
           })
   );
-  */
 });
