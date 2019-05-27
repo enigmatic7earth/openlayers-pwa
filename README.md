@@ -1,5 +1,15 @@
-Welcome to Glitch
-=================
+
+ # <img src="https://github.com/enigmatic7earth/openlayers-pwa/blob/master/public/images/icons/icon-128x128.png" width="48"> OpenLayers PWA
+
+
+A simple Progressive Web App made with [Glitch](https://glitch.com/) and [OpenLayers](https://openlayers.org/)
+
+
+
+Made with [Glitch](https://glitch.com/)
+-------------------
+
+\ ゜o゜)ノ
 
 Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
 
@@ -20,8 +30,3 @@ On the back-end,
 - add frameworks and packages in `package.json`
 - safely store app secrets in `.env` (nobody can see this but you and people you invite)
 
-
-Made by [Glitch](https://glitch.com/)
--------------------
-
-\ ゜o゜)ノ
