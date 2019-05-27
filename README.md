@@ -1,4 +1,4 @@
-![alt text](https://github.com/enigmatic7earth/openlayers-pwa/blob/master/public/images/icons/icon-128x128.png "OpenLayersPWA") OpenLayers PWA
+![](https://github.com/enigmatic7earth/openlayers-pwa/blob/master/public/images/icons/icon-128x128.png =72x72) OpenLayers PWA
 =================
 A simple Progressive Web App made with [Glitch](https://glitch.com/) and [OpenLayers](https://openlayers.org/)
 
