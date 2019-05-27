@@ -17,6 +17,7 @@
   <!-- meta theme-color -->
   <meta name="theme-color" content="#aad2dd" />
   <link rel="stylesheet" href="https://openlayers.org/en/v5.3.0/css/ol.css" type="text/css">
+  <link rel="stylesheet" type="text/css" href="/styles/inline.css">
   <!-- The line below is only needed for old environments like Internet Explorer and Android 4.x -->
   <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL"></script>
   <style>
@@ -29,6 +30,17 @@
   <title>OpenLayers example</title>
   </head>
   <body>
+    <header class="header">
+    <h1>
+      Weather PWA
+      <a href="https://darksky.net/poweredby/" class="powered-by">
+        Powered by Dark Sky
+      </a>
+    </h1>
+    <button id="butInstall" aria-label="Install" hidden></button>
+    <button id="butRefresh" aria-label="Refresh"></button>
+  </header>
+  
     <div id="map" class="map"></div>
     <script type="text/javascript">
       var map = new ol.Map({
