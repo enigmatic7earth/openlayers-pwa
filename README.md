@@ -5,6 +5,7 @@
 A simple Progressive Web App made with [Glitch](https://glitch.com/) and [OpenLayers](https://openlayers.org/) by [Prashant](https://glitch.com/@enigmatic7earth)
 
 
+<img src="https://github.com/enigmatic7earth/openlayers-pwa/blob/master/enigmatic7earth-openlayers-pwa.glitch.me_(iPhone%206_7_8%20Plus).png" width="621">
 
 Made with [Glitch](https://glitch.com/)
 -------------------
