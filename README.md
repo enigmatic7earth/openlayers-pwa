@@ -7,6 +7,9 @@ A simple Progressive Web App made with [Glitch](https://glitch.com/) and [OpenLa
 
 <img src="https://github.com/enigmatic7earth/openlayers-pwa/blob/master/enigmatic7earth-openlayers-pwa.glitch.me_(iPhone%206_7_8%20Plus).png" width="621">
 
+<img src="https://github.com/enigmatic7earth/openlayers-pwa/blob/master/enigmatic7earth-openlayers-pwa.glitch.me_(iPhone%206_7_8%20Plus)-offline.png" width="621">
+
+
 ## Install
 [Simple OpenLayers PWA](https://enigmatic7earth-openlayers-pwa.glitch.me/)
 
